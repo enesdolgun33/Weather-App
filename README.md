@@ -14,6 +14,8 @@ It shows the current weather, upcoming hours, and a 5-day forecast.
 - 🎨 Simple responsive UI with CSS
 
 ---
+## 👀 App Views
+
 <p align="center">
   <img src="./screenshots/home.png" width="450" height="500" />
   <img src="./screenshots/detail.png" width="450" height="500" />
