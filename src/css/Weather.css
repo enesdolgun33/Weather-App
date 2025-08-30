@@ -1,0 +1,128 @@
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.box{
+    margin-top: 70px;
+    width: 500px;
+    height: 650px;
+    border-radius: 50px;
+    background-color:rgba(255,255,255,0.16);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 2px solid  rgba(255,255,255,0.2) ;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info h1{
+    margin-top: 0px;
+}
+
+.big-img{
+    width: 140px;
+    height: 140px;
+    transform: scale(1.7);
+}
+
+.bulut{
+    color: white;
+    width: 00px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.select-city{
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 700;
+    color:rgb(109, 105, 203);
+    text-transform: capitalize;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.city-weather{
+    margin-top: 25px;
+    background-color: inherit;
+    width: 250px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+
+.sicaklik{
+    margin: 0;
+    width: 100%;
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+.ek-bilgi{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial;
+    margin: 0;
+}
+.ek-bilgi p {
+    margin: 0;
+    font-size: 17px;
+}
+
+.bes-gunluk{
+    width: 500px;
+    height: 190px;
+    background-color: inherit;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.bes-gunluk div{
+    background-color: rgba(255, 255, 255, 0.253);
+    width: 85px;
+    height: 180px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+.bes-gunluk div img{
+    width: 85px;
+    height: 80px;
+    transform: scale(1.4);
+}
+.forecastlist-temp{
+    color: rgb(245, 245, 245);
+    margin-top: -5px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+}
+.forecastlist-daytime{
+    margin: 2px 0;
+    font-size: 18px;
+    color: rgb(245, 245, 245);
+
+}
+
