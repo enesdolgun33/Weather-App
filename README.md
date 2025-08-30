@@ -18,11 +18,11 @@ It shows the current weather, upcoming hours, and a 5-day forecast.
 
 <div >
   <p>  
-  - Home page
+  # Home page
   </p>
   <img src="./screenshots/home.png" width="50%" height="700" />
   <p>  
-  - City-specific weather page
+  # City-specific weather page
   </p>
   <img src="./screenshots/detail.png" width="50%" height="700" />
 </div>
