@@ -48,10 +48,10 @@ function Weather() {
                         }}
                     />
 
-                    <CurrentWeather derece={weatherData} />
+                    <CurrentWeather weather={weatherData} />
 
                     <ForecastList
-                        derece={weatherData}
+                        weather={weatherData}
                         filtreleVeriler={filterForecastData}
                         tarihToGunAdi={dateToDayName}
                     />

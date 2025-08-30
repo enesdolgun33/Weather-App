@@ -2,15 +2,15 @@ import React from 'react';
 import { dateToDayName, filterForecastData } from '../utils/dateUtils';
 
 
-const ForecastList = ({ derece }) => {
+const ForecastList = ({ weather }) => {
     return (
         <div className='forecasts'>
-            {derece &&
+            {weather &&
 
-                filterForecastData(derece).map((list, i) => {
+                filterForecastData(weather).map((list, i) => {
                     const [, time] = list.dt_txt.split(" ");
                     return (
-                        <div key={i} className='gun'>
+                        <div key={i} >
                             <img
                                 src={`https://openweathermap.org/img/wn/${list.weather[0].icon}@2x.png`}
                                 alt=""
