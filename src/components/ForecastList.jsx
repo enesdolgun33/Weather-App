@@ -4,7 +4,7 @@ import { dateToDayName, filterForecastData } from '../utils/dateUtils';
 
 const ForecastList = ({ derece }) => {
     return (
-        <div className='bes-gunluk'>
+        <div className='forecasts'>
             {derece &&
 
                 filterForecastData(derece).map((list, i) => {

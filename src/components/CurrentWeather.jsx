@@ -11,8 +11,8 @@ const CurrentWeather = ({ derece }) => {
                         const { speed } = derece.list[0].wind;
                         return (
                             <>
-                                <p className='sicaklik'>{temp.toFixed(0)}°C</p>
-                                <div className='ek-bilgi'>
+                                <p className='temp'>{temp.toFixed(0)}°C</p>
+                                <div className='additional-info'>
                                     <p className='hissedilen'>Hissedilen: {feels_like.toFixed(0)}°C</p>
                                     <p>Nem: {humidity}%</p>
                                     <p>Rüzgar: {speed.toFixed(1)} km/s</p>

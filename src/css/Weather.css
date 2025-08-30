@@ -32,13 +32,6 @@
     transform: scale(1.7);
 }
 
-.bulut{
-    color: white;
-    width: 00px;
-    height: 100px;
-    margin-top: 20px;
-}
-
 .select-city{
     width: 250px;
     height: 40px;
@@ -66,7 +59,7 @@
     
 }
 
-.sicaklik{
+.temp{
     margin: 0;
     width: 100%;
     font-size: 90px;
@@ -76,19 +69,19 @@
     justify-content: center;
 }
 
-.ek-bilgi{
+.additional-info{
     display: flex;
     flex-direction: column;
     text-align: center;
     font-family: Arial;
     margin: 0;
 }
-.ek-bilgi p {
+.additional-info p {
     margin: 0;
     font-size: 17px;
 }
 
-.bes-gunluk{
+.forecasts{
     width: 500px;
     height: 190px;
     background-color: inherit;
@@ -98,7 +91,7 @@
     justify-content: center;
     align-items: center;
 }
-.bes-gunluk div{
+.forecasts div{
     background-color: rgba(255, 255, 255, 0.253);
     width: 85px;
     height: 180px;
@@ -106,7 +99,7 @@
     text-align: center;
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
-.bes-gunluk div img{
+.forecasts div img{
     width: 85px;
     height: 80px;
     transform: scale(1.4);

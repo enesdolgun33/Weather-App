@@ -1,4 +1,4 @@
-export const sehirler = [
+export const cities = [
     "Adana",
     "Adıyaman",
     "Afyonkarahisar",
