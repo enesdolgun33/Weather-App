@@ -16,9 +16,13 @@ It shows the current weather, upcoming hours, and a 5-day forecast.
 ---
 ## 👀 App Views
 
-<p >
+<div >
+  <p>  
   - Home page
+  </p>
   <img src="./screenshots/home.png" width="50%" height="700" />
+  <p>  
   - City-specific weather page
+  </p>
   <img src="./screenshots/detail.png" width="50%" height="700" />
-</p>
+</div>
