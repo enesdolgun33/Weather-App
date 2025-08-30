@@ -16,7 +16,7 @@ It shows the current weather, upcoming hours, and a 5-day forecast.
 ---
 ## 👀 App Views
 
-<div display="flex" >
+<div display="flex" flex-direction="row">
   <img src="./screenshots/home.png" width="50%" height="700" />
   <img src="./screenshots/detail.png" width="50%" height="700" />
 </div>
