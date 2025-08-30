@@ -9,7 +9,7 @@ It shows the current weather, upcoming hours, and a 5-day forecast.
 
 - 🌡️ Current weather information
 - ⏱️ Next 2 forecasts (approx. 3h and 6h ahead)
-- 📅 5-day forecast (daily data at 12:00)
+- 📅 4-day forecast (daily data at 12:00)
 - ☁️ Weather icons from OpenWeather
 - 🎨 Simple responsive UI with CSS
 
